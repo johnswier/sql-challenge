@@ -52,3 +52,11 @@ where dept_name = 'Sales' or dept_name = 'Development';
 select last_name, count(*) from employee
 group by last_name
 order by count(*) desc;
+
+-- (bonus) search for my employee #
+
+select * from employee 
+where emp_no = 499942
+
+-- April Foolsday is my employee name which confirms that boss
+-- gave phony data as a test!
